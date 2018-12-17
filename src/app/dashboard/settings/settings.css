@@ -1,0 +1,1169 @@
+.settingsHeader nav {
+    width: 100%;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.settingsHeader nav a {
+    font-size: 15px;
+    display: inline-block;
+    padding: 20px;
+    font-weight: 400;
+    transition: 0.3s all;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    color: #C0C0C0 !important;
+}
+
+.settingsHeader nav a.active {
+    color: rgb(6, 103, 208) !important;
+    border-bottom: 1px solid rgb(6, 103, 208);	
+}
+.settingsHeader nav a:hover {
+	color: black !important;
+	text-decoration: none;
+}
+.settingsWrapper  {
+	padding:25px;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 70px;
+}
+.agreementCheckbox {
+	font-size: 12px;
+	width: 90%;
+}
+.requiredCheckbox input {
+	margin-right: 15px;
+	margin-top: 5px;
+} 
+.nonAccreditedUL {
+	list-style: none;
+	margin-left: -40px;
+	text-align:center;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+	width: 600px;
+	margin: 0 auto;
+}
+.nonAccreditedUL li {
+	margin-bottom: 30px;
+	font-size: 17px;
+	letter-spacing: 0.7px;
+	line-height: 30px;
+}
+.nonAccreditedUL li a {
+	color: blue !important;
+	cursor: pointer;
+}
+.settingsWrapper .title {
+	font-size: 20px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);	
+}
+.settingsWrapper .subtitle {
+	font-weight: 400;
+	font-size: 12px;
+	width: 40%;
+	letter-spacing: 0;
+	display: block;
+	color: gray;
+
+}
+
+.requiredField {
+	color: red !important;
+	display: inline-block !important;
+	font-size: 12px !important;
+	float: right !important;
+	padding-top: 3px;
+}
+
+.iamaccrediationchoice {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.iamaccrediationchoice a {
+	text-align: center;
+	padding: 20px;
+	width: calc(50% - 10px);
+	display: inline-block;
+	margin-right: 10px;
+	background: #1480e2;
+	border-radius: 3px;
+	color: white !important;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 14px;
+
+}
+.iamaccrediationchoice a.disabled {
+	background: white;
+	border:1px solid #1480e2;
+	color: #1480e2 !important;
+}
+
+input:disabled {
+	background-color: #f3f3f3;
+	cursor: not-allowed;
+}
+
+.uploadButton a {
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    background-color: rgba(125, 149, 182,0.05);
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.instantChangesCo {
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.instantChangesCo ul {
+	list-style: none;
+	margin-left: -40px;
+	padding-top: 10px;
+}
+.instantChangesCo ul li {
+	padding: 20px;
+	padding-left: 0 !important;
+	padding-right: 0px !important;
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+.changePictureCon {
+	
+}
+.changePictureCon img {
+	width:60px;
+	height:60px;
+	border-radius: 30px;	
+}
+.changePictureText {
+	padding-left: 20px;
+	margin-top: 0px;
+}
+.changePictureText span{
+	display: block;
+	letter-spacing: 0.3px;
+
+	font-weight: 300;
+}
+.signatureCanvas {
+	font-size: 70px !important;
+	margin-top: -160px;
+	user-select: none;
+	color: lightgrey !important;
+	width: 500px !important;
+	text-align: center;
+	margin-bottom: 60px;
+	
+}	
+.clearSignature {
+	background: #f3f3f3;
+	border-radius: 3px;
+	padding: 5px 10px;
+	margin-top: -5px;
+	font-size: 10px;
+	margin-bottom: 1px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+.changePictureText span:nth-of-type(1) {
+	font-weight: 500;
+	font-size: 13px;
+	color: #333;
+}
+
+.changePictureText span:nth-of-type(2) {
+	font-weight: 300;
+	font-size: 13px;
+	color: #5a5f6d;
+}
+.changePictureText span:nth-of-type(3) {
+	font-weight: 300;
+	font-size: 13px;
+	color: rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+
+.uploadButton input {
+	outline: none;
+	cursor: pointer;
+	border:0px solid lightgrey;
+	color: white !important;
+	background-color: rgb(6, 103, 208);
+	padding: 10px 15px;
+	border-radius: 3px;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+
+.inputGroups {
+	width: 100%;
+	padding-top: 30px;
+}
+.inputGroups p span {
+	display: block;
+	font-size: 15px;
+	color: #5a5f6d;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+}
+.inputGroups p span:nth-of-type(2) {
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.inputGroups input {
+	width:400px;
+	height: 45px;
+	border:1px solid rgba(0,0,0,0.1);
+	outline: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	margin-left: 5px;
+	letter-spacing: 0px;
+	letter-spacing: 0.3px;
+	color: rgba(0,0,0,0.8);
+	font-weight:300;
+	border-radius: 3px;
+}
+
+.inputGroups select {
+	width:400px;
+	height: 45px;
+	border:1px solid rgba(0,0,0,0.1);
+	outline: none;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	letter-spacing: 0px;
+	background-color: white;
+	border-radius: 1px;
+	letter-spacing: 0.3px;
+	color: rgba(0,0,0,0.8);
+	font-weight:300;
+}
+
+
+.dashModelWrapper {
+	
+}
+.settingsWrap nav {
+	width: 100%;
+	padding-left: 20px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.settingsWrap nav a {
+	font-size: 15px;
+	display: inline-block;
+	padding: 20px;
+	font-weight: 400;
+	transition: 0.3s all;
+	letter-spacing: 0.3px;
+	cursor: pointer;
+}
+.settingsTab {
+	color: #C0C0C0 !important;
+}
+.settingsTabdisabled {
+	color: lightgrey !important;
+}
+.settingsWrap nav .settingsTab:hover {
+	color: black !important;
+	text-decoration: none;
+}
+.settingsWrap nav a.activeScreen {
+	color: rgb(6, 103, 208) !important;
+	border-bottom: 1px solid rgb(6, 103, 208);	
+}
+.settingsWrap nav a.activeScreen:hover {
+	color: rgb(6, 103, 208) !important;
+	border-bottom: 1px solid rgb(6, 103, 208);	
+}
+.tabSettings {
+	padding: 25px;
+	padding-top: 30px;
+}
+.tabSettings .title {
+	font-size: 20px;
+	color: #333;
+	letter-spacing: 1px;
+	font-weight: 300;
+	padding-bottom: 15px;
+
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+
+
+
+.nextDetailsInput {
+	padding: 30px;
+	padding-left: 0px;
+	padding-bottom: 80px;
+	padding-right: 0;
+}
+.inputGroups {
+	width: 100%;
+	padding-top: 30px;
+}
+.inputGroups p span {
+	display: block;
+	font-size: 15px;
+	color: #5a5f6d;
+	padding-bottom:5px;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+}
+.inputGroups p span:nth-of-type(2) {
+	font-weight: 300;
+	font-size: 12px;
+}
+
+
+.inputGroups input:disabled {
+	background-color: rgba(0,0,0,0.05);
+	cursor: not-allowed;
+}
+.inputGroups input::placeholder {
+	color: lightgrey;
+}
+
+.personalDetails {
+	padding-bottom: 40px;
+}
+.personalDetails .leftSide {
+	width: 40%;
+	float: left;
+}
+.personalDetails .rightSide {
+	width: 60%;
+	float: left;
+	padding-left: 50px;
+}
+.clickHere {
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	margin-top: 5px;
+	font-weight: 400;
+
+}
+.phoneNumber {
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+.verified {
+	background-color: #50bf82;
+	color: white;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 9px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.primaryPhone {
+	background-color: #3a87ad;
+	color: white;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 9px;
+	font-weight: 500;
+	text-transform: uppercase;
+
+}
+
+.activeSessions .title {
+	font-size: 15px;
+	font-weight: 600;
+	padding-top: 20px;
+	border:0;
+	color: rgb(6, 103, 208);
+}
+.activeSessions .description {
+	font-size: 12.5px;
+	margin-top: -10px;
+	letter-spacing: 0.5px;
+	font-weight: 300;
+	border:0;
+	color: grey;	
+}
+
+
+.dashTable tr td,.dashTable th {
+	padding-left: 0 !important;
+	text-align: left !important;
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+
+}
+.dashTable tr td {
+	color: rgba(0,0,0,0.6) !important;
+	letter-spacing: 0.3px;
+}
+
+
+.descriptionModel {
+	color: rgba(0,0,0,0.6);
+	letter-spacing: 0.4px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	font-size: 13px;
+}
+.descriptionModel b {
+	color: red;
+}
+
+
+.tabtitle {
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+.idActive {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.idActive .title {
+	font-size:15px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.idActive ul {
+	margin-left: -20px;
+}
+.idActive ul li {
+	letter-spacing: 0.5px;
+	font-weight: 300;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+.subtitleWarning {
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.leftSideScreen {
+	width: 50%;	
+	padding: 40px;
+	padding-top: 0;
+	float: left;
+	padding-left: 0;
+	
+}
+.documentRightSide {
+	width: 50%;
+	float: left;
+}
+.proofofIDScreen {
+	background-color: rgba(6, 103, 208,0.05);
+	height: 200px;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.proofofIDScreen img {
+	width: 70px;
+	opacity: 0.3;
+}
+
+.documentRightSide label {
+	font-weight: 600;
+	margin-top: 7px;
+}
+.documentRightSide select {
+	width:300px;
+	height: 45px;
+	border:1px solid rgba(0,0,0,0.1);
+	outline: none;
+	border-radius: 3px;
+	padding-left: 14px;
+	padding-right: 80px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	letter-spacing: 0px;
+	background-color: white;
+	border-radius: 1px;
+	letter-spacing: 0.3px;
+	color: rgba(0,0,0,0.8);
+	font-weight:300;
+}
+
+
+.documentRightSide input {
+	width: 300px;
+	height: 45px;
+	border:1px solid rgba(0,0,0,0.1);
+	outline: none;
+	border-radius: 3px;
+	padding-left: 14px;
+	padding-right: 80px;
+	font-size: 20px;
+	letter-spacing: 1px;
+
+}
+
+
+
+.titles {
+	color: rgba(0,0,0,1);
+	font-weight:500;
+	padding-bottom: 10px;
+	font-size: 15px;
+
+}
+.descriptions {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+}
+.verificatonSuccessWrapper {
+	padding-top:100px;
+}
+.titleV {
+	text-align:center;
+	font-weight:900;
+	font-size:28px;
+	padding-top:50px;
+	padding-bottom:100px;
+}
+
+.cls-1 {
+  fill: none;
+  stroke: #231f20;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+}
+
+#checkmark {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  display: block;
+
+}
+#checkmark .cls-1 {
+  stroke: green;
+}
+
+.circle {
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+}
+
+.checkmark {
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+}
+
+.run-animation .circle {
+  -webkit-animation: 2.5s circleDraw forwards;
+          animation: 2.5s circleDraw forwards;
+}
+.run-animation .checkmark {
+  -webkit-animation: 0.75s checkmarkDraw forwards;
+          animation: 0.75s checkmarkDraw forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes circleDraw {
+  from {
+    stroke-dashoffset: 700;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes circleDraw {
+  from {
+    stroke-dashoffset: 700;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes checkmarkDraw {
+  from {
+    stroke-dashoffset: 150;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes checkmarkDraw {
+  from {
+    stroke-dashoffset: 150;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+.phoneNumb {
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.settingsWrapper .description {
+	font-size: 12.5px;
+    margin-top: -10px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    border: 0;
+    color: grey;
+}
+
+.dashTable {
+	width: 100%;
+}
+
+.dashTable tr th  {
+	font-weight: 800;
+	color: #333;
+	font-size: 13px;
+	padding: 10px;
+	padding-left:0;
+	border-bottom:1px solid #e5ecf4;
+}
+.dashTable tbody tr td:first-child {
+	padding-left: 15px;
+}
+.dashTable tbody tr td:last-child {
+	padding-right: 15px;
+
+
+}
+.dashTable tbody tr td:last-child span {
+	display: block;
+}
+
+.dashTable tbody tr td {
+	font-size: 13px;
+	color: black;
+	padding: 9px;
+	padding-left:0;
+	border-bottom:1px solid #e5ecf4;
+	padding-bottom: 10px;
+}
+.dashTable td:last-child , .dashTable th:last-child {
+	text-align: right;
+}
+
+
+.validingStatusWrap  {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.validingStatusWrap .title {
+	text-align: center;
+	font-weight: 800;
+	font-size: 30px;
+	letter-spacing: 1px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.validingStatusWrap .title.green {
+	color: rgb(20, 191, 6);
+	letter-spacing: 1px;
+}
+.validingStatusWrap .description {
+	text-align: center;
+	font-weight:300;
+	font-size: 15px;
+	color: #333;
+	letter-spacing: 1px;
+}
+
+
+.validingStatusWrap .image img {
+	width: 200px;
+}
+
+
+
+
+.bttmFooterPaginate ul {
+	list-style: none;
+	margin-left: -40px;
+	margin-bottom: 0;
+	float: right;
+}
+
+.bttmFooterPaginate ul li {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+.bttmFooterPaginate ul li.active {
+	background-color: #2567e5;
+	color: white;
+}
+.bttmFooterPaginate ul li.disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+.bttmFooterPaginate ul li:first-child{
+	width: 80px;
+	padding-right: 25px;
+	text-align:right;
+}
+.bttmFooterPaginate ul li:last-child  {
+	width: 40px;
+	text-align: right;
+}
+
+
+.sigCanvas {
+	border:1px solid gray;
+}
+
+.steps23c {
+	color: rgb(0, 106, 208);
+	font-size: 14px;
+	margin-top: -24px;
+	font-weight: 500;
+}
+.billingDetailsWrap {
+	border-left: 3px solid rgb(0, 106, 208);
+	height: 100%;
+	padding-left: 35px;
+	position: relative;
+	margin-left: -15px;
+	margin-top: 20px;
+}
+.verifcationWrapper {
+	border-left: 0px solid #152664;
+	height: 100%;
+	padding-left: 25px;
+	position: relative;
+	margin-left: -25px;
+	padding-top: 20px;
+}
+
+.navigationTop {
+	position: absolute;
+	top:0px;
+	left: -18px;
+	width: 35px;
+	height: 35px;
+	border-radius: 40px;
+	background: white;
+	border:2px solid rgb(0, 106, 208);
+	text-align: center;	
+	color: rgb(0, 106, 208);
+	padding-top: 2px;
+}
+
+.navigationTop span {
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-left: -2px;
+}
+
+.verifcationWrapper .navigationTop {
+	top: 20px;
+	left: -28px;
+}
+
+.rectanglewhitehide {
+	position: absolute;
+	top: 60px;
+	left: -15px;
+	width: 10px;
+	bottom: 0;
+	background: white;
+	z-index: 12312312;
+}
+
+.addNewPhoneWrapper {
+	width: 500px;
+	height: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}	
+
+.addNewPhoneWrapper .title {
+	font-size: 27px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	padding-bottom: 20px;
+
+}
+ .lockedWrapper {
+	
+	text-align: center;
+	padding: 30px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}
+.lockedWrapper i {
+	font-size: 30px;
+}	
+.lockedWrapper .lockedTitle {
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 34px;
+	padding-top: 30px;
+}
+.lockedWrapper .locekdDescr {
+	font-weight: 500;
+	letter-spacing: 0.3px;
+	font-size: 15px;
+}
+
+
+@media screen and (max-width: 1330px){
+
+	.settingsPage .seperator {
+		width: 0 !important;
+	}
+	.settingsPage .contentPage {
+		padding-left: 0;
+		width: 100% !important;
+	}
+
+}
+
+
+@media screen and (max-width: 1090px){
+	.settingsPage .contentPage .personalDetails .leftSide {
+		width: 20%;
+	}
+	.settingsPage .contentPage .personalDetails .rightSide {
+		width: 80%;
+	}
+
+
+	.verifyAccountWrap {
+		padding-left: 10px;
+		padding-right:10px;
+	}
+
+	.verifyAccountWrap .activeSessions div {
+		padding-left: 40px;
+		padding-right: 50px !important;
+	}
+
+	.subtitleWarning {
+		text-align: center;
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 1150px){
+	.accrediationWrapper {
+		width: 100% !important;
+		float: none !important;
+		padding: 0 !important;
+		margin: 0 auto !important;
+		padding-right: 10px !important;
+	}
+	.accrediationWrapper2 {
+		width: 500px !important;
+		margin: 0 auto !important;
+		float: none !important;
+	}
+}
+
+
+@media screen and (max-width: 1000px){
+	.verifyAccountWrap .leftSideScreen {
+		width: 70% !important;
+		float: none !important;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.verifyAccountWrap .documentRightSide {
+		width: 70% !important;
+		float: none !important;
+		padding: 0;
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and (max-width: 990px){
+	.settingsPage .contentPage .settingsWrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: -25px;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 940px){
+	.verifyAccountWrap {
+		padding-left: 10px;
+		padding-right:10px;
+	}
+
+	.verifyAccountWrap .activeSessions div {
+		padding-left: 20px;
+		padding-right: 20px !important;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px){
+	.settingsPage .contentPage .settingsWrapper .instantChangesCo ul li{
+		width: 100% !important;
+		display: block;
+		margin-bottom: 35px;
+		padding-left: 0 !important;
+	}	
+	.settingsPage .contentPage .settingsWrapper .instantChangesCo ul li:last-child{
+		margin-bottom: 0;
+	}
+
+	.settingsPage .contentPage .settingsWrapper .changePictureText {
+		padding-left: 0;
+	}
+	.accountActivityTableSettings  {
+		overflow-x: scroll;
+	}
+	.accountActivityTableSettings table {
+		width: 1000px;
+	}
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 900px){
+	.settingsPage .contentPage .personalDetails .leftSide {
+		display: none;
+	}
+	.settingsPage .contentPage .personalDetails .rightSide {
+		width: 100%;
+		padding-left: 0;
+	}
+	.verifyAccountWrap .leftSideScreen {
+		width: 90% !important;
+		float: none !important;
+		padding: 0;
+		margin: 0 auto !important;
+	}
+	.verifyAccountWrap .documentRightSide {
+		width: 90% !important;
+		float: none !important;
+
+		margin: 0 auto !important;
+	}
+	.settingsWrapper .subtitle {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 840px){
+	.verifyAccountWrap {
+		padding-left: 0px !important;
+		padding-right:0px  !important;
+	}
+
+	.verifyAccountWrap .activeSessions div {
+		padding-left: 20px;
+		padding-right: 0px !important;
+	}
+	.uploadButton input {
+		margin-right: 10px;
+	}
+	.proofofIDScreen {
+		height: auto;
+	}
+}
+
+
+@media screen and (max-width: 800px){
+	.settingsPage .contentPage .nextDetailsInput {
+		padding-bottom: 40px;
+	}
+	.settingsPage .contentPage .nextDetailsInput .inputGroups .pull-left{
+		width: 100%;
+		float: none;
+	}
+	.settingsPage .contentPage .nextDetailsInput .inputGroups .pull-right {
+		width: 100%;
+		float: none;
+		margin-left: -5px;
+	}
+	.settingsPage .contentPage .nextDetailsInput .inputGroups .pull-right input {
+		width: 100%;
+	}
+	.verifyAccountWrap .activeSessions div {
+		width: 100% !important;
+	}
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 700px){
+
+.settingsHeader nav a.pull-right {
+	float: none;
+}
+.settingsHeader nav {
+	white-space:nowrap;
+	overflow-x:scroll;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 665px){
+
+	.Preferences .documentRightSide select {
+		width: 100% !important;
+	}
+
+}
+@media screen and (max-width: 605px){
+	.settingsPage .contentPage {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.settingsPage .contentPage .inputGroups select,.settingsPage .contentPage .inputGroups input {
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+
+	.settingsPage .contentPage .inputGroups .pull-left {
+		width: 100% !important;
+	}
+	.settingsPage .contentPage .inputGroups .pull-right {
+		width: 100% !important;
+		margin-top: 10px;
+	}
+	.changePasswordContainer .uploadButton {
+		margin-top: 20px;
+		float: left;
+	}
+	.validingStatusWrap {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.validingStatusWrap .image img {
+		widows: 150px !important;
+	}
+	.documentRightSide select {
+		width: 100%;
+	}
+	.documentRightSide input {
+		width: 100%;
+	}
+
+	.twoFactor1 {
+		float: none !important;
+		width: 100% !important;
+	}
+	.twoFactor2 {
+		float: none !important;
+		width: 100% !important;
+		margin-top: 40px;
+	}
+	.iamaccrediationchoice {
+		margin-left: -20px;
+		
+	}
+	.accrediationWrapper {
+		width: 100% !important;
+		float: none !important;
+		padding: 0 !important;
+		margin: 0 auto !important;
+		padding-right: 0px !important;
+		margin-left: -20px !important;
+	}
+	.accrediationWrapper2 {
+		width: 100% !important;
+		margin: 0 auto !important;
+		float: none !important;
+	}
+
+	.settingsHeader nav {
+		padding-left: 10px;
+	}
+	.settingsHeader nav a {
+		font-size: 13px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.settingsWrapper .subtitle {
+		width: 200px;
+	}
+}
+
+
+
+
+
+
+
+
+
