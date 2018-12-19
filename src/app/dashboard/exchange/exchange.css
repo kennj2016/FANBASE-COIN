@@ -1,0 +1,459 @@
+.cHeader ul {
+	list-style: none;
+	margin-left: -40px;
+}
+.cHeader ul li {
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	border-right: 1px solid rgb(218, 225, 233);
+	border-top-right-radius: 4px;
+
+
+
+    font-size: 17px;
+    text-align: center;
+    color: rgba(125, 149, 182,0.5);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: rgba(6, 103, 208,0.03);
+    border-bottom: 1px solid rgb(218, 225, 233);
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+
+.cHeader .tag.green {
+	font-size:8px;
+	margin-top: 2px;
+	padding: 5px 7px;
+	background-color: #00C57F;
+}
+
+.cHeader ul li:last-child {
+
+	border-right: 0;
+
+}
+
+.cHeader ul li.active {
+	border-top: 1px solid rgb(6, 103, 208);
+	background-color: white;
+	border-bottom: 0;
+    color: rgb(6, 103, 208);
+}
+
+.amountToSend {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+.amountToSend .title {
+	padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 16.5px;
+    letter-spacing: 0.5px;
+    color: rgb(6, 103, 208);
+}
+
+
+
+.amountInput {
+	width: 80%;
+    height: 60px;
+    border: 1px solid rgba(0,0,0,0.09);
+    outline: none;
+    border-radius: 3px;
+    padding-left: 14px;
+    padding-right: 15px;
+    font-size: 20px;
+   	-webkit-appearance: none;
+    letter-spacing: 1px;	
+    float: left;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+}
+
+.amountInput::placeholder {
+	color: lightgrey;
+}
+
+.amountSelect {
+	border: 1px solid rgba(0,0,0,0.09);
+	-webkit-appearance: none;
+	width: 20%;
+	height: 60px;
+	float: left;
+	text-align: right;
+	border-radius: 2px;
+	outline: none;
+	padding-left: 10px;
+	background-color: white;
+	border-left: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	color: gray;
+	font-weight: 900;
+	padding-right: 30px;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.amountSelect option {
+	-webkit-appearance: none;
+	text-align: right;
+
+}
+
+
+.paymentMethod {
+	padding-left: 20px;
+	padding-right: 20px;
+	clear: both;
+	padding-top: 20px;
+}
+
+.paymentMethod .title {
+	padding-bottom: 15px;
+    font-weight: 500;
+    padding-left: 6px;
+    font-size: 16.5px;
+    letter-spacing: 0.5px;
+    color: rgb(6, 103, 208);	
+}
+
+.coinWrapperUL {
+	list-style: none;
+	margin-left: -40px;
+	text-align: center;
+}
+
+.coinWrapperUL li {
+	width: 20%;
+	display: inline-block;
+	padding: 6px;
+	cursor: pointer;
+	vertical-align: top;
+    position: relative;
+}
+.coinWrapperUL li .content.active {
+	border:1px solid rgba(6, 103, 208,0.5);
+	background-color: rgba(6, 103, 208,0.1);
+}
+
+.coinWrapperUL li .content.disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+.coinWrapperUL li .tag {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    font-size: 9px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: -10px;
+    background-color: #1fc481;
+}
+
+
+
+.coinWrapperUL li .content {
+	height: 95px;
+	padding-top: 17px;
+}
+.coinTitle {
+	font-weight: 300;
+    letter-spacing: 0.4px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 13px;	
+}
+
+.coinWrapperUL .content .logoP {
+	width: 32px;
+	height: 32px;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+.coinWrapperUL .content .logoP img {
+	text-align: center;
+	width: 18px;
+	padding-top: 5px;
+}
+.coinWrapperUL .content .logoP.ethereum img {
+	padding-top: 0px;
+	width: 27px;
+	margin-top: -1px;
+}
+
+.coinWrapperUL .content .logoP.litecoin img {
+	margin-top: 5px;
+}
+.coinWrapperUL .content .logoP.ripple img {
+	margin-top: 4px;
+}
+
+.logoP.usd {
+    color: white !important;
+    padding-top: 4px;
+    background-color: rgb(77, 138, 255);
+}
+
+
+.logoP.monero {
+    text-align: center;
+    padding-top: 1px;
+    background-color: #fc6621;
+}
+
+.logoP.neo {
+    text-align: center;
+    padding-top: 1px;
+    background-color: #52ba00;
+}
+.logoP.dash {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -5px;
+    background-color: #2573c2;	
+}
+.logoP.dash img {
+	width: 25px !important;
+}
+
+.logoP.verge {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -5px;
+    background-color: #00cbff;	
+}
+
+.logoP.zcash {
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 1px;
+    background-color: #F1BA4A;
+}
+.logoP.zcash img {
+	width: 28px !important;
+	padding-top: 1px !important;
+}
+
+.logoP.zencash {
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 1px;
+    background-color: #041435;
+}
+.logoP.zencash img {
+	width: 20px !important;
+	padding-top: 1px !important;
+	margin-left: -2px !important;
+}
+
+
+
+
+
+.exchangeDetails {
+	padding: 30px;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.exchangeDetails .initialTitle {
+    text-transform: uppercase;
+    color: rgba(6, 103, 208,0.5);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;	
+    padding-top:10px;
+}
+
+.exchangeDetails .amountofLare {
+    font-size: 35px;
+  object-fit: cover;
+    color: rgba(6, 103, 208,1);
+    padding-top: 3px;
+}
+
+.exchangeDetails .exchangeRate {
+    font-size: 13px;
+    padding-top: 5px;
+    color: rgba(6, 103, 208,0.9);
+    letter-spacing: 0.5px;
+    padding-bottom: 13px;	
+}
+
+
+
+.centerLineWrap {
+    width: 15%;
+    height: 280px;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+}
+.centerLine {
+    border-left: 1px dashed rgba(6, 103, 208,0.7);
+    height: 100%;
+    margin-left: 15px;
+}
+
+.centerCircles{
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.leftCircle {
+    border-radius: 30px;
+    width: 40px;
+    color: rgba(6, 103, 208,1);
+    height: 40px;
+    background-color: rgb(235, 241, 250);
+    border: 2px solid white;
+    margin-bottom: 46px;
+    margin-left: -4.5px;
+    padding-top: 8px;
+}
+
+.ExchangeDetailsWrap {
+	padding-left: 50px;
+}
+.ExchangeDetailsWrap ul {
+	list-style: none;
+	margin-left: -40px;
+}
+
+.ExchangeDetailsWrap ul li {
+	text-align: left;
+	height: 86px;
+	padding-top: 5px;
+}
+.ExchangeDetailsWrap ul li:nth-of-type(3) {
+	height: 85px;
+}
+
+.ExchangeDetailsWrap ul li:nth-of-type(4) {
+	height: auto;
+}
+
+.bodyWrap {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.bodyWrap hr {
+	border-bottom: 1px solid rgba(6, 103, 208,0.1);
+}
+.ExchangeDetailsWrap ul li .title {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	color: rgba(0,0,0,1);
+}
+
+.ExchangeDetailsWrap ul li .subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: rgb(6, 103, 208);
+	padding-top: 4px;
+}
+
+
+.finalFeeWrap {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+	position: relative;
+}
+
+.finalFeeWrap span:first-child {
+
+    position: relative;
+    z-index: 1;
+    padding-right: 10px;
+    background-color: white;
+    color: rgba(6, 103, 208,0.5);
+    font-size: 13px;
+    height: 24px;
+}
+
+.finalFeeWrap span:nth-of-type(2) {
+    padding-left: 10px;
+    padding-right: 0px;
+    color: rgba(6, 103, 208,1);
+    font-size: 13px;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.verticalLine {
+    border-bottom: 1px dashed rgba(6, 103, 208,0.7);
+    position: absolute;
+    top:20px;
+    left: 40px;
+    right: 45px;
+    z-index: 0;
+
+}
+
+.confirmPurchase {
+    background-color: #28cd6a;
+    display: block;
+    color: white !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.errorPurchase {
+    background-color: rgb(254, 84, 97);
+    display: block;
+    color: white !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 12px;
+    cursor: not-allowed;
+    text-align: center;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+.minimumAmount {
+    color: rgb(254, 84, 97);
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .hideinMobile {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .page {
+        padding-top: 50px !important;
+    }
+}
